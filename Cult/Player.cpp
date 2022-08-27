@@ -559,7 +559,7 @@ void Player::Attack(Item& wep)
 
 void Player::Help() 
 {
-	std::cout << "'Look' - this command looks around the room." << std::endl;
+	std::cout << "\n\n'Look' - this command looks around the room." << std::endl;
 	std::cout << "'Health' - Will show you your health and sanity stats. If either hit 0 you lose." << std::endl;
 	std::cout << "'Inventory' - Will display what's in your inventory." << std::endl;
 	std::cout << "'Check (object to check here)' - If you type 'Check box' it will check the box object in the room if it exists. Check shows what is on/in the object you want to check." << std::endl;
